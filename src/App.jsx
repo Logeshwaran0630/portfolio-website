@@ -1,30 +1,27 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Skills from './pages/Skills';
-import Contact from './pages/Contact';
-import './App.css';
-
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
+    <div style={{ 
+      padding: '50px', 
+      textAlign: 'center', 
+      fontFamily: 'Arial',
+      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      color: 'white',
+      minHeight: '100vh'
+    }}>
+      <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>🚀 Portfolio Live!</h1>
+      <p style={{ fontSize: '1.5rem' }}>React + Vercel Deployment Successful!</p>
+      <div style={{ 
+        marginTop: '30px', 
+        background: 'rgba(255,255,255,0.1)',
+        padding: '2rem',
+        borderRadius: '10px',
+        backdropFilter: 'blur(10px)'
+      }}>
+        <h2>Logeshwaran J</h2>
+        <p>Software Development Engineer</p>
+        <p>Full Stack + Mobile Developer</p>
       </div>
-    </Router>
+    </div>
   );
 }
 

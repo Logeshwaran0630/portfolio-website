@@ -9,7 +9,7 @@ function App() {
       minHeight: '100vh'
     }}>
       <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>🚀 Portfolio Live!</h1>
-      <p style={{ fontSize: '1.5rem' }}>React + Vercel Deployment Successful!</p>
+      <p style={{ fontSize: '1.5rem' }}>Deployment Successful!</p>
       <div style={{ 
         marginTop: '30px', 
         background: 'rgba(255,255,255,0.1)',
